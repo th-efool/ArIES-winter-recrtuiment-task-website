@@ -627,7 +627,7 @@ export default function UnboundPlayground() {
           </div>
       
           {/* Multiplayer Game Development (Optional) */}
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
+          <div className="md:col-span-2 rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
             <h4 className="text-xl font-semibold mb-3 text-indigo-300">
               Advanced Plus (Multiplayer Resource)
             </h4>
