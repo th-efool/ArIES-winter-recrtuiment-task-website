@@ -634,21 +634,7 @@ export default function UnboundPlayground() {
             <p className="text-sm text-zinc-300 mb-4">
               It is recommended to dive into multiplayer development only after finishing the advanced playlist.
             </p>
-        
-          
-          {/* Multiplayer Game Development (Optional) */}
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
-            <h4 className="text-xl font-semibold mb-3 text-indigo-300">
-              Advanced Plus (Multiplayer Resources)
-            </h4>
-          
-            <p className="text-sm text-zinc-300 mb-4">
-              It is recommended to explore multiplayer development only after completing
-              the advanced engine playlists and gaining a solid understanding of core
-              game systems.
-            </p>
-          
-            <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
+        <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
               <li>
                 <a
                   href="https://www.youtube.com/playlist?list=PLCDWnguFQzxhVrB3KUGxCDsFfgPtq_2kX"
