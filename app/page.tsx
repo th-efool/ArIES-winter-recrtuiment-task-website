@@ -267,7 +267,7 @@ export default function UnboundPlayground() {
           </h2>
           <p className="text-zinc-100 max-w-3xl">
             For many well-known software engineers and tech leaders, games
-            weren’t a distraction — they were an entry point. Building or
+            weren&apos;t a distraction — they were an entry point. Building or
             modifying simple games is often how curiosity about programming
             turns into real technical skill.
           </p>
@@ -309,7 +309,7 @@ export default function UnboundPlayground() {
             <p className="text-sm text-zinc-500 mb-3">Co-founder of Apple</p>
             <p className="text-zinc-400">
               A lifelong arcade game enthusiast, Wozniak designed the hardware
-              for Atari’s <em>Breakout</em>, optimizing chips and circuitry — an
+              for Atari&apos;s <em>Breakout</em>, optimizing chips and circuitry — an
               early example of systems-level thinking through games.
             </p>
           </div>
