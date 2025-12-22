@@ -187,7 +187,7 @@ export default function UnboundPlayground() {
                   That&apos;s where Game Development is different.
                 </span>{" "}
                 You make worlds with your own laws, physics & organization. You
-                define what's possible, what's not.
+                define what&apos;s possible, what&apos;s not.
               </p>
 
               {/* Immersive block */}
