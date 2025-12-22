@@ -634,32 +634,41 @@ export default function UnboundPlayground() {
             </p>
         
           
-            {/* Resource placeholder */}
-            <div className="mt-4 rounded-xl border border-zinc-800 p-4">
-              <p className="text-sm text-zinc-400 mb-3">
-                Multiplayer learning resources:
-              </p>
-            
-              <div className="flex flex-wrap gap-2">
+          {/* Multiplayer Game Development (Optional) */}
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
+            <h4 className="text-xl font-semibold mb-3 text-indigo-300">
+              Advanced Plus (Multiplayer Resources)
+            </h4>
+          
+            <p className="text-sm text-zinc-300 mb-4">
+              It is recommended to explore multiplayer development only after completing
+              the advanced engine playlists and gaining a solid understanding of core
+              game systems.
+            </p>
+          
+            <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
+              <li>
                 <a
                   href="https://www.youtube.com/playlist?list=PLCDWnguFQzxhVrB3KUGxCDsFfgPtq_2kX"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-300 hover:border-indigo-400/50 hover:text-zinc-100 transition-colors"
+                  className="text-indigo-300 hover:underline"
                 >
-                  Unity · Multiplayer Playlist
+                  Unity Engine — Multiplayer Learning Playlist
                 </a>
-            
+              </li>
+              <li>
                 <a
                   href="https://www.youtube.com/playlist?list=PLCDWnguFQzxjK9hrvXjcodkm4MDmYquM1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-300 hover:border-indigo-400/50 hover:text-zinc-100 transition-colors"
+                  className="text-indigo-300 hover:underline"
                 >
-                  Unreal · Multiplayer Playlist
+                  Unreal Engine — Multiplayer Learning Playlist
                 </a>
-              </div>
-            </div>
+              </li>
+            </ul>
+          </div>
 
           </div>
 
