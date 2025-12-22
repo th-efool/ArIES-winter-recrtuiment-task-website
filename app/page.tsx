@@ -451,7 +451,16 @@ export default function UnboundPlayground() {
             tracks
           </a>
         </div>
-
+        <div className="max-w-6xl mx-auto mb-5">
+                  <a
+                    href="https://docs.google.com/document/d/1E3LhGjB27D4n5-L3V-tgfE7EnlGVm756CXdJadRHHhE/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-indigo-300 font-medium hover:underline"
+                  >
+                    click here to Read Project Instructions
+                  </a>
+                </div>
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-8 auto-rows-fr">
           {projects.map((p) => (
             <motion.div
