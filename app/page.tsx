@@ -184,7 +184,7 @@ export default function UnboundPlayground() {
 
               <p>
                 <span className="text-zinc-100 font-medium">
-                  That's where Game Development is different.
+                  That&apos;s where Game Development is different.
                 </span>{" "}
                 You make worlds with your own laws, physics & organization. You
                 define what's possible, what's not.
