@@ -550,31 +550,32 @@ export default function UnboundPlayground() {
         </div>
       </section>
 
-      {/* ================= LEARNING RESOURCES ================= */}
+     {/* ================= LEARNING RESOURCES ================= */}
       <section className="px-6 py-14">
+        {/* Header */}
         <div className="max-w-6xl mx-auto mb-10">
           <h2 className="text-4xl font-semibold mb-4 text-zinc-100">
             Learning Resources & Roadmaps
           </h2>
           <p className="text-zinc-400 max-w-3xl">
-            The Game Dev team at ArIES has curated structured, well-guided
-            learning roadmaps to help you complete the projects from each track
-            with clarity.
+            The Game Dev team at ArIES has curated structured, well-guided learning
+            roadmaps to help you complete the projects from each track with clarity.
           </p>
         </div>
-
+      
+        {/* Grid */}
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
           {/* Track Playlists */}
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
             <h4 className="text-xl font-semibold mb-3 text-indigo-300">
               Track-Specific Learning Playlists
             </h4>
-
+      
             <p className="text-zinc-400 mb-4">
               If you choose a project from the tracks above, follow the curated
               playlists prepared specifically for that project.
             </p>
-
+      
             <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
               <li>
                 <a
@@ -589,18 +590,18 @@ export default function UnboundPlayground() {
               <li>Or use the playlist links directly inside each track card</li>
             </ul>
           </div>
-
+      
           {/* Advanced Paths */}
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
             <h4 className="text-xl font-semibold mb-3 text-violet-300">
               Advanced Engine Resources
             </h4>
-
+      
             <p className="text-zinc-400 mb-4">
-              After completing your assigned project, you can continue with
-              deeper, engine-focused learning paths.
+              After completing your assigned project, you can continue with deeper,
+              engine-focused learning paths.
             </p>
-
+      
             <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
               <li>
                 <a
@@ -624,17 +625,19 @@ export default function UnboundPlayground() {
               </li>
             </ul>
           </div>
-
+      
           {/* Multiplayer Game Development (Optional) */}
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
             <h4 className="text-xl font-semibold mb-3 text-indigo-300">
               Advanced Plus (Multiplayer Resource)
             </h4>
-          
+      
             <p className="text-sm text-zinc-300 mb-4">
-              It is recommended to dive into multiplayer development only after finishing the advanced playlist.
+              It is recommended to dive into multiplayer development only after
+              finishing the advanced playlist.
             </p>
-        <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
+      
+            <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
               <li>
                 <a
                   href="https://www.youtube.com/playlist?list=PLCDWnguFQzxhVrB3KUGxCDsFfgPtq_2kX"
@@ -657,12 +660,9 @@ export default function UnboundPlayground() {
               </li>
             </ul>
           </div>
-
-          </div>
-
-      </div>
-
+        </div>
       </section>
+
 
       {/* ================= FOOTER ================= */}
       <footer className="px-6 py-16 border-t border-zinc-800">
