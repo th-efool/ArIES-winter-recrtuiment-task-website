@@ -627,19 +627,14 @@ export default function UnboundPlayground() {
         {/* Multiplayer Game Development (Optional) */}
         <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
           <h4 className="text-xl font-semibold mb-3 text-indigo-300">
-            Multiplayer Game Development
+            Advanced Plus (Multiplayer Resource)
           </h4>
         
-          <p className="text-zinc-400 mb-4">
-            Multiplayer games involve networking, synchronization, and managing shared
-            game state across multiple players.
-          </p>
-        
           <p className="text-sm text-zinc-300 mb-4">
-            Multiplayer development is recommended only after gaining a solid
+            It is recommended you only dive into this after gaining a solid
             understanding of core game systems and engine fundamentals.
           </p>
-        
+      
         
           {/* Resource placeholder */}
           <div className="pt-2 border-t border-zinc-800">
