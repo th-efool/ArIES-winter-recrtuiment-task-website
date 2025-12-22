@@ -434,7 +434,7 @@ export default function UnboundPlayground() {
       <section className="px-6 py-14">
         <div className="max-w-6xl mx-auto mb-5">
           <h2 className="text-4xl font-semibold mb-4 text-zinc-100">
-            Winter Game Dev Tracks
+            Unbound Playground - Game Jam Tracks
           </h2>
           <p className="text-zinc-400 max-w-2xl">
             Choose a direction that excites you. Build a complete, playable
