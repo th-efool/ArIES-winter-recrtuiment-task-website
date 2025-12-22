@@ -636,11 +636,32 @@ export default function UnboundPlayground() {
         
           
             {/* Resource placeholder */}
-            <div className="pt-2 border-t border-zinc-800">
-              <p className="text-sm text-zinc-500 italic">
-                Multiplayer learning resources will be added here.
+            <div className="mt-4 rounded-xl border border-zinc-800 p-4">
+              <p className="text-sm text-zinc-400 mb-3">
+                Multiplayer learning resources:
               </p>
+            
+              <div className="flex flex-wrap gap-2">
+                <a
+                  href="https://www.youtube.com/playlist?list=PLCDWnguFQzxhVrB3KUGxCDsFfgPtq_2kX"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-300 hover:border-indigo-400/50 hover:text-zinc-100 transition-colors"
+                >
+                  Unity · Multiplayer Playlist
+                </a>
+            
+                <a
+                  href="https://www.youtube.com/playlist?list=PLCDWnguFQzxjK9hrvXjcodkm4MDmYquM1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-300 hover:border-indigo-400/50 hover:text-zinc-100 transition-colors"
+                >
+                  Unreal · Multiplayer Playlist
+                </a>
+              </div>
             </div>
+
           </div>
 
       </div>
