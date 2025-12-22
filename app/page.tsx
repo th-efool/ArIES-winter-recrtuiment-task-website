@@ -447,8 +447,7 @@ export default function UnboundPlayground() {
             rel="noopener noreferrer"
             className="text-indigo-300 font-medium hover:underline"
           >
-            click here to get PDF-COPY of Visual catalogue of the following
-            tracks
+            click here for Visual Catalogue of the following tracks
           </a>
         </div>
         <div className="max-w-6xl mx-auto mb-5">
