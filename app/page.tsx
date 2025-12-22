@@ -51,13 +51,15 @@ const projects = [
   {
     title: "First-Person Parkour",
     track: "Core 3D Gameplay",
-    engine: ["Unity"],
+    engine: ["Unity", "Unreal"],
     difficulty: "Beginner+",
     specialties: ["Wall-running", "Sliding", "Momentum-based movement"],
     submission: "Report + Short demo video + Github Link",
     image:
       "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2008/11/13/1226608373848/mirror_476.jpg?width=620&dpr=2&s=none&crop=none",
     playlists: {
+       Unreal:
+        "https://www.youtube.com/playlist?list=PLCDWnguFQzxj0orEnL86q2ZQ94cg6xag8",
       Unity:
         "https://www.youtube.com/playlist?list=PLCDWnguFQzxjqfu9MdLs_mx3mGaXWLGha",
     },
