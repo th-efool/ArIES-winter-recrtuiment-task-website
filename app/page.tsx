@@ -591,7 +591,7 @@ export default function UnboundPlayground() {
           {/* Advanced Paths */}
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
             <h4 className="text-xl font-semibold mb-3 text-violet-300">
-              Advanced Engine Tracks
+              Advanced Engine Resources
             </h4>
 
             <p className="text-zinc-400 mb-4">
@@ -622,29 +622,29 @@ export default function UnboundPlayground() {
               </li>
             </ul>
           </div>
-        </div>
 
-        {/* Multiplayer Game Development (Optional) */}
-        <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
-          <h4 className="text-xl font-semibold mb-3 text-indigo-300">
-            Advanced Plus (Multiplayer Resource)
-          </h4>
-        
-          <p className="text-sm text-zinc-300 mb-4">
-            It is recommended you only dive into this after gaining a solid
-            understanding of core game systems and engine fundamentals.
-          </p>
-      
-        
-          {/* Resource placeholder */}
-          <div className="pt-2 border-t border-zinc-800">
-            <p className="text-sm text-zinc-500 italic">
-              Multiplayer learning resources will be added here.
+          {/* Multiplayer Game Development (Optional) */}
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
+            <h4 className="text-xl font-semibold mb-3 text-indigo-300">
+              Advanced Plus (Multiplayer Resource)
+            </h4>
+          
+            <p className="text-sm text-zinc-300 mb-4">
+              It is recommended you only dive into this after gaining a solid
+              understanding of core game systems and engine fundamentals.
             </p>
-          </div>
-        </div>
-
         
+          
+            {/* Resource placeholder */}
+            <div className="pt-2 border-t border-zinc-800">
+              <p className="text-sm text-zinc-500 italic">
+                Multiplayer learning resources will be added here.
+              </p>
+            </div>
+          </div>
+
+      </div>
+
       </section>
 
       {/* ================= FOOTER ================= */}
