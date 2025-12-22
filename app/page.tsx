@@ -630,8 +630,7 @@ export default function UnboundPlayground() {
             </h4>
           
             <p className="text-sm text-zinc-300 mb-4">
-              It is recommended you only dive into this after gaining a solid
-              understanding of core game systems and engine fundamentals.
+              It is recommended to dive into multiplayer development only after finishing the advanced playlist.
             </p>
         
           
