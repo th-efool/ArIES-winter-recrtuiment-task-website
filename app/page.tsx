@@ -228,11 +228,21 @@ A small, well-understood game beats a large, shallow one.`,
     a: "We don’t recommend it. If you have extra time, we’d strongly suggest going deeper instead of wider. Explore the advanced learning playlists, add more systems or features to your current project, or implement ideas from other tracks into the same game. Deeper understanding matters more than multiple submissions.",
   },
   {
-    q: "Are pre-made assets allowed?",
-    a: `Yes — as long as they’re free or properly licensed and credited.
+  q: "Are pre-made assets allowed?",
+  a: `Yes — as long as they’re free or properly licensed and properly credited.
 
-Core gameplay systems must be written by you.`,
-  },
+You may freely use:
+• 3D models
+• animations
+• textures
+• sounds
+• UI assets
+
+However, core gameplay systems and framework-level code must be written by you.
+
+This is a learning-focused jam, not a contest of visual polish.
+Using assets is fine — outsourcing the thinking is not.`,
+},
 ];
 
 export default function UnboundPlayground() {
