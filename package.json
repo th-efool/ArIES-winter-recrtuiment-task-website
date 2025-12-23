@@ -19,7 +19,9 @@
     "react-dom": "19.0.0",
     "shadcn": "3.6.2",
     "tailwind-merge": "^3.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "@vercel/analytics": "^1.0.0"
+
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

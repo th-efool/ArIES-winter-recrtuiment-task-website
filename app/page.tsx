@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
+import { Analytics } from "@vercel/analytics/next";
 // ================= THEME TOKENS =================
 // Change these values to update colors site-wide
 const theme = {
@@ -58,7 +58,7 @@ const projects = [
     image:
       "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2008/11/13/1226608373848/mirror_476.jpg?width=620&dpr=2&s=none&crop=none",
     playlists: {
-       Unreal:
+      Unreal:
         "https://www.youtube.com/playlist?list=PLCDWnguFQzxj0orEnL86q2ZQ94cg6xag8",
       Unity:
         "https://www.youtube.com/playlist?list=PLCDWnguFQzxjqfu9MdLs_mx3mGaXWLGha",
@@ -311,8 +311,8 @@ export default function UnboundPlayground() {
             <p className="text-sm text-zinc-500 mb-3">Co-founder of Apple</p>
             <p className="text-zinc-400">
               A lifelong arcade game enthusiast, Wozniak designed the hardware
-              for Atari&apos;s <em>Breakout</em>, optimizing chips and circuitry — an
-              early example of systems-level thinking through games.
+              for Atari&apos;s <em>Breakout</em>, optimizing chips and circuitry
+              — an early example of systems-level thinking through games.
             </p>
           </div>
 
@@ -453,15 +453,15 @@ export default function UnboundPlayground() {
           </a>
         </div>
         <div className="max-w-6xl mx-auto mb-5">
-                  <a
-                    href="https://docs.google.com/document/d/1E3LhGjB27D4n5-L3V-tgfE7EnlGVm756CXdJadRHHhE/edit?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-indigo-300 font-medium hover:underline"
-                  >
-                    click here to Read Project Instructions
-                  </a>
-                </div>
+          <a
+            href="https://docs.google.com/document/d/1E3LhGjB27D4n5-L3V-tgfE7EnlGVm756CXdJadRHHhE/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-300 font-medium hover:underline"
+          >
+            click here to Read Project Instructions
+          </a>
+        </div>
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-8 auto-rows-fr">
           {projects.map((p) => (
             <motion.div
@@ -550,7 +550,7 @@ export default function UnboundPlayground() {
         </div>
       </section>
 
-     {/* ================= LEARNING RESOURCES ================= */}
+      {/* ================= LEARNING RESOURCES ================= */}
       <section className="px-6 py-14">
         {/* Header */}
         <div className="max-w-6xl mx-auto mb-10">
@@ -558,11 +558,12 @@ export default function UnboundPlayground() {
             Learning Resources & Roadmaps
           </h2>
           <p className="text-zinc-400 max-w-3xl">
-            The Game Dev team at ArIES has curated structured, well-guided learning
-            roadmaps to help you complete the projects from each track with clarity.
+            The Game Dev team at ArIES has curated structured, well-guided
+            learning roadmaps to help you complete the projects from each track
+            with clarity.
           </p>
         </div>
-      
+
         {/* Grid */}
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
           {/* Track Playlists */}
@@ -570,12 +571,12 @@ export default function UnboundPlayground() {
             <h4 className="text-xl font-semibold mb-3 text-indigo-300">
               Track-Specific Learning Playlists
             </h4>
-      
+
             <p className="text-zinc-400 mb-4">
               If you choose a project from the tracks above, follow the curated
               playlists prepared specifically for that project.
             </p>
-      
+
             <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
               <li>
                 <a
@@ -590,18 +591,18 @@ export default function UnboundPlayground() {
               <li>Or use the playlist links directly inside each track card</li>
             </ul>
           </div>
-      
+
           {/* Advanced Paths */}
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
             <h4 className="text-xl font-semibold mb-3 text-violet-300">
               Advanced Engine Resources
             </h4>
-      
+
             <p className="text-zinc-400 mb-4">
-              After completing your assigned project, you can continue with deeper,
-              engine-focused learning paths.
+              After completing your assigned project, you can continue with
+              deeper, engine-focused learning paths.
             </p>
-      
+
             <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
               <li>
                 <a
@@ -625,18 +626,18 @@ export default function UnboundPlayground() {
               </li>
             </ul>
           </div>
-      
+
           {/* Multiplayer Game Development (Optional) */}
           <div className="md:col-span-2 rounded-2xl border border-zinc-800 bg-zinc-900/70 p-6">
             <h4 className="text-xl font-semibold mb-3 text-indigo-300">
               Advanced Plus (Multiplayer Resource)
             </h4>
-      
+
             <p className="text-sm text-zinc-300 mb-4">
               It is recommended to dive into multiplayer development only after
               finishing the advanced playlist.
             </p>
-      
+
             <ul className="text-sm text-zinc-300 space-y-2 list-disc list-inside">
               <li>
                 <a
@@ -662,7 +663,6 @@ export default function UnboundPlayground() {
           </div>
         </div>
       </section>
-
 
       {/* ================= FOOTER ================= */}
       <footer className="px-6 py-16 border-t border-zinc-800">
