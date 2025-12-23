@@ -153,6 +153,88 @@ const projects = [
   },
 ];
 
+const faqs = [
+  {
+    q: "Who can participate?",
+    a: "Anyone interested in learning game development. No prior game dev experience is required.",
+  },
+  {
+    q: "How will projects be judged?",
+    a: `Projects will be evaluated on two main aspects:
+  
+  1. Understanding & Depth
+  • clarity of systems and logic
+  • depth of implementation
+  • ability to explain design choices
+  
+  2. Presentability
+  • clear instructions and usability
+  • coherent flow and experience
+  
+  Visual polish matters far less than clarity and understanding.
+  
+  An official percentage-wise judging breakdown will be released separately. Until then, use this as the guiding criteria.
+  `,
+  },
+  {
+    q: "Is this a competition or a learning event?",
+    a: `Learning comes first.
+
+The goal isn’t just to submit a game, but to:
+• understand systems
+• write real logic
+• gain hands-on scripting experience
+
+A small, well-understood game beats a large, shallow one.`,
+  },
+  {
+    q: "Do I need prior programming experience?",
+    a: "No. This jam is designed primarily for people with zero prior game development experience. We’ve curated beginner-friendly learning playlists and an active community to help you learn and build from scratch.",
+  },
+  {
+    q: "Can I participate solo or in a team?",
+    a: "Yes. Solo participation is valid. Teams are allowed. Choose the setup that helps you learn best.",
+  },
+  {
+    q: "What is the maximum team size?",
+    a: "Up to 3 members per team by default. Larger teams require admin approval.",
+  },
+  {
+    q: "How should teams divide work?",
+    a: `Avoid over-splitting by roles (only art / only UI / only coding).
+  
+  Everyone should:
+  • engage with core systems
+  • write or understand game logic
+  • leave with the same foundational skills
+  
+  If you do split work, split by learning tracks — not by tasks.
+  
+  For example:
+  • one person follows the First-Person Shooter track (weapons, aiming, AI)
+  • another follows the Parkour track (movement, momentum, traversal)
+  → then combine both into a single parkour shooter experience
+  
+  Other Combination Examples:
+  • 2D Platformer + Horror → tense 2D horror platformer
+  • FPS + Horror → atmospheric shooter with chase mechanics
+  • AR Solar System + Open Track → interactive educational AR experience
+
+  The idea is: learn different systems independently, then integrate them.
+  Depth and system understanding matter more than isolated contributions.`,
+  },
+  {
+    q: "Can I participate in multiple teams?",
+    a: "We don’t recommend it. If you have extra time, we’d strongly suggest going deeper instead of wider. Explore the advanced learning playlists, add more systems or features to your current project, or implement ideas from other tracks into the same game. Deeper understanding matters more than multiple submissions.",
+  },
+  {
+    q: "Are pre-made assets allowed?",
+    a: `Yes — as long as they’re free or properly licensed and credited.
+
+Core gameplay systems must be written by you.`,
+  },
+];
+
 export default function UnboundPlayground() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950 text-zinc-100">
@@ -661,6 +743,40 @@ export default function UnboundPlayground() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* ================= FAQ ================= */}
+      <section className="px-6 py-14">
+        <div className="max-w-6xl mx-auto mb-10">
+          <h2 className="text-4xl font-semibold mb-4 text-zinc-100">
+            Game Jam — FAQs
+          </h2>
+          <p className="text-zinc-400 max-w-3xl">
+            There are no rigid rules. If you want to try something
+            unconventional, consult an admin first. The main objective is to
+            learn, experiment, and deepen your understanding.
+          </p>
+        </div>
+
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          {faqs.map((faq) => (
+            <details
+              key={faq.q}
+              className="group rounded-xl border border-zinc-800 bg-zinc-900/70"
+            >
+              <summary className="cursor-pointer list-none p-4 flex justify-between items-center text-zinc-100 font-medium">
+                <span>{faq.q}</span>
+                <span className="text-zinc-400 group-open:rotate-45 transition-transform">
+                  +
+                </span>
+              </summary>
+
+              <div className="px-4 pb-4 text-sm text-zinc-300 whitespace-pre-line">
+                {faq.a}
+              </div>
+            </details>
+          ))}
         </div>
       </section>
 
