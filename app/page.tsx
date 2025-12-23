@@ -759,11 +759,11 @@ export default function UnboundPlayground() {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="max-w-6xl mx-auto columns-1 md:columns-2 gap-6">
           {faqs.map((faq) => (
             <details
               key={faq.q}
-              className="group rounded-xl border border-zinc-800 bg-zinc-900/70"
+              className="mb-6 break-inside-avoid rounded-xl border border-zinc-800 bg-zinc-900/70"
             >
               <summary className="cursor-pointer list-none p-4 flex justify-between items-center text-zinc-100 font-medium">
                 <span>{faq.q}</span>
