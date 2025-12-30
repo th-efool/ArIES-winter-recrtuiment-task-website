@@ -6,6 +6,17 @@ A learning-first Winter Game Development Assignment portal built for **ArIES (Ar
 
 This project is not just a landing page — it is a **structured learning scaffold** designed to onboard absolute beginners into **real game development systems**, while still leaving space for depth, experimentation, and personal direction.
 
+![Status](https://img.shields.io/badge/status-live-success.svg)
+![Type](https://img.shields.io/badge/type-learning%20platform-blue.svg)
+![Focus](https://img.shields.io/badge/focus-game%20development%20systems-blueviolet.svg)
+![Audience](https://img.shields.io/badge/audience-beginners%20%E2%86%92%20intermediate-lightgrey.svg)
+![Framework](https://img.shields.io/badge/framework-Next.js%20(App%20Router)-black.svg)
+![Language](https://img.shields.io/badge/language-TypeScript-blue.svg)
+![Styling](https://img.shields.io/badge/styling-Tailwind%20CSS-informational.svg)
+![UI](https://img.shields.io/badge/UI-shadcn%2Fui-lightgrey.svg)
+![Animation](https://img.shields.io/badge/animation-Framer%20Motion-purple.svg)
+![Deployment](https://img.shields.io/badge/deployed%20on-Vercel-black.svg)
+
 ---
 
 ## 🧠 Philosophy
